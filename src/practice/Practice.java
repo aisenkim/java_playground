@@ -11,6 +11,7 @@ public class Practice {
         deque.add(2);
         deque.add(3);
 
+        Deque<Integer> queDeque = new LinkedList<>();
 
         System.out.println(deque.peekFirst());
     }
