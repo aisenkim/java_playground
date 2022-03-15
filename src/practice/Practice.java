@@ -1,18 +1,15 @@
 package practice;
 
-import java.util.Deque;
-import java.util.LinkedList;
+import java.util.*;
 
 public class Practice {
 
     public static void main(String[] args) {
-        Deque<Integer> deque = new LinkedList<>();
-        deque.add(1);
-        deque.add(2);
-        deque.add(3);
+        List<Integer> array = new ArrayList<>(Arrays.asList(1,2,3,4,5));
+        List<Integer> newArr = new ArrayList<>(array);
 
-        Deque<Integer> queDeque = new LinkedList<>();
+        System.out.println("newArr = " + newArr);
 
-        System.out.println(deque.peekFirst());
+
     }
 }
