@@ -17,10 +17,10 @@ public class FindMinimumInRotatedSortedArrayTest {
 	static void setup() {
 		solution = new FindMinimumInRotatedSortedArray();
 		inputs = new HashMap<>();
-		inputs.put(new int[]{3,4,5,1,2}, 1);
-		inputs.put(new int[]{4,5,6,7,0,1,2}, 0);
+//		inputs.put(new int[]{3,4,5,1,2}, 1);
+//		inputs.put(new int[]{4,5,6,7,0,1,2}, 0);
 		inputs.put(new int[]{2,1}, 1);
-		inputs.put(new int[]{1}, 1);
+//		inputs.put(new int[]{1}, 1);
 	}
 
 	@Test
